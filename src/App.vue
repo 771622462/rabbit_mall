@@ -3,16 +3,13 @@ import { RouterLink, RouterView } from 'vue-router'
 import { getCategoryAPI } from './apis/testAPI';
 import { onMounted } from 'vue';
 
-onMounted(() => {
-  getCategoryAPI().then(ans => console.log(ans))
-})
+// onMounted(() => {
+//   getCategoryAPI().then(ans => console.log(ans))
+// })
 </script>
 
 <template>
   <RouterView></RouterView>
-  <div class="test">
-    test
-  </div>
 </template>
 
 <style scoped lang="scss">
