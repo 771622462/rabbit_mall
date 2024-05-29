@@ -7,7 +7,7 @@ const {y} = useScroll(window)
 </script>
 
 <template>
-  <div class="app-header-sticky" :class="{show:y > 78}">    <!--动态添加类名-->>
+  <div class="app-header-sticky" :class="{show:y > 78}">    <!--动态添加类名-->
     <div class="container">
       <RouterLink class="logo" to="/" />
       <!-- 导航区域 -->
