@@ -1,7 +1,7 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import { getCategoryAPI } from './apis/testAPI';
-import { onMounted } from 'vue';
+import { RouterView } from 'vue-router'
+//import { getCategoryAPI } from './apis/testAPI';
+//import { onMounted } from 'vue';
 
 // onMounted(() => {
 //   getCategoryAPI().then(ans => console.log(ans))
